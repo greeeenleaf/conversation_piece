@@ -9,16 +9,11 @@ html{
 
 body {
   font-family: Helvetica;
-  background-color: hsl(54, 80%, 80%);
+  background-color: white;
   margin: 0px;
 
 }
 
-.container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2rem 95vh 95vh 95vh 95vh;
-}
 {margin: 0;
 padding: 0;
 }
@@ -27,14 +22,75 @@ display: grid;
 height: 100%;
 }
 .center-fit {
+  display: block;
 max-width: 100%;
 max-height: 100vh;
 margin: auto;
 }
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2rem 95vh 95vh 95vh 95vh;
+}
 
 .section1{
-  background: pink;
-  height:95vh;
   grid-column: 1/4;
-  grid-row: 1/2;
+  grid-row:2;
+display: flex;
+justify-content: space-around;
+  position: relative;
+}
+#front{
+  max-width: 50%;
+}
+.text1{
+  padding: 10em;
+  padding-right: 15em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.section2{
+
+  grid-column: 1/4;
+  grid-row:3;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  position: relative;
+}
+
+#firstspread{
+  max-width: 80vh;
+}
+#secondspread{
+  max-width: 110vh;
+}
+.section3{
+  padding-left: 10em;
+  grid-column: 1/2;
+  grid-row:4;
+  background-color: lightblue;
+height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.section4{
+  grid-column: 2/4;
+  grid-row:5;
+}
+.section5{
+  padding-left: 10em;
+  grid-column: 1/2;
+  grid-row:6;
+  background-color: lightblue;
+height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.section6{
+  grid-column: 2/4;
+  grid-row:7;
 }
