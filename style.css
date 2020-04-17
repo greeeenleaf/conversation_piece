@@ -1,0 +1,40 @@
+.splash_page{
+  height: 3.4rem;
+}
+
+html{
+  font-size: 12px;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: hsl(54, 80%, 80%);
+  margin: 0px;
+
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2rem 95vh 95vh 95vh 95vh;
+}
+{margin: 0;
+padding: 0;
+}
+.imgbox {
+display: grid;
+height: 100%;
+}
+.center-fit {
+max-width: 100%;
+max-height: 100vh;
+margin: auto;
+}
+
+.section1{
+  background: pink;
+  height:95vh;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
