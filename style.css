@@ -112,7 +112,7 @@ justify-content: space-around;
   transition: 0.3s;
 }
 #firstspread:hover{
-  transform: scale(2);
+  transform: scale(2.75);
   transition: 0.3s;
 }
 #secondspread{
